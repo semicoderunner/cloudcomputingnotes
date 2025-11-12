@@ -35,9 +35,16 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **ctrl+z**                 (used to stop a foreground process)<br>
 **cat newfile.txt**        (This command will shows all the text in the newfile.txt as output)<br>
 **touch**                  (touch command is used to create new file (touch newfile.txt) it will create a file with newfile.txt as name)<br>
+**touch .newfile.txt** (this command with . in the start of file name will be used to create a hidden file)
 **mkdir**                  (this command is used to make new directory or folder like mkdir newfolder)<br>
 **ls**                     (list show it shows all the files in a folder or directory like (ls home) this command will show all files folders in home folder)<br>
-
+**ls -l** (to view detailed list of file and folders)
+**ls -la** (to view hidden file as well as all other files in detailed view)
+**cd..**                   (is used  to go back from current folder to one folder back)<br>
+**sudo -i**(change user to root user)<br>
+**history** (this command is used to view the commands executed by the user in a session)
+**rm** (it is used to remove a file like rm newfile.txt it will remove newfile.txt file)\\
+**rm -r** (-r is for recursive and this command is used for deleting a folder and file)
 
 
 # AWS notes<br>
