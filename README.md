@@ -22,21 +22,21 @@ The  apps such as nginx and users config files such as user groups etc are avail
 The logs,volumes and file such as html file for nginx is stored in **var folder** <br>
 
 # commands<br>
-**pws** (to check present working directory)<br>
-**cd** (change directory)<br>
-**kill -9 processid**(force stop any process)<br>
-**kill processid**(stop any process)<br>
-**ping google.com** (It will ping google.com)<br>
-**grep**(grep command is used to match patterns and show it as output)<br>
-**ls home** | grep ubuntu (it will show all the folders or files that are in home folder)<br>
-**ping -c 2 google.com** (It will ping the google.com 2 times)<br>
-**ps**(shows processes that are running)<br>
-**ctrl+c**(used to terminate foreground processes)<br>
-**ctrl+z**(used to stop a foreground process)<br>
-**cat newfile.txt**(This command will shows all the text in the newfile.txt as output)<br>
-**touch** (touch command is used to create new file (touch newfile.txt) it will create a file with newfile.txt as name)<br>
-**mkdir** ( this command is used to make new directory or folder like mkdir newfolder)<br>
-**ls** (list show it shows all the files in a folder or directory like (ls home) this command will show all files folders in home folder)<br>
+**pws**                    (to check present working directory)<br>
+**cd**                     (change directory)<br>
+**kill -9 processid**      (force stop any process)<br>
+**kill processid**         (stop any process)<br>
+**ping google.com**        (It will ping google.com)<br>
+**grep**                   (grep command is used to match patterns and show it as output)<br>
+**ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
+**ping -c 2 google.com**   (It will ping the google.com 2 times)<br>
+**ps**                     (shows processes that are running)<br>
+**ctrl+c**                 (used to terminate foreground processes)<br>
+**ctrl+z**                 (used to stop a foreground process)<br>
+**cat newfile.txt**        (This command will shows all the text in the newfile.txt as output)<br>
+**touch**                  (touch command is used to create new file (touch newfile.txt) it will create a file with newfile.txt as name)<br>
+**mkdir**                  (this command is used to make new directory or folder like mkdir newfolder)<br>
+**ls**                     (list show it shows all the files in a folder or directory like (ls home) this command will show all files folders in home folder)<br>
 
 
 
