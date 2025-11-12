@@ -14,6 +14,14 @@ git status (for checking the status of a branch if any file is added changed or 
 git checkout branchname (used to navigate to branches)<br>
 git branch newbranch(used to create a new branch)<br>
 git remote add origin (Used to link local repo to github repo on the internet its not important for you to be the owner of that branch)<br>
+<br>
+# Linux and its commands<br>
+The users data is available in home folder<br>
+The commands that we run in linux its files are present in **bin folder**<br>
+The  apps such as nginx and users config files such as user groups etc are available in **etc folder **<br>
+# commands<br>
+pws (to check present working directory)
+
 
 # AWS notes<br>
 # S3<br>
