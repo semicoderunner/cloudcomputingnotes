@@ -21,7 +21,7 @@ The commands that we run in linux its files are present in **bin folder**<br>
 The  apps such as nginx and users config files such as user groups etc are available in **ETC folder** <br>
 The logs,volumes and file such as html file for nginx is stored in **var folder** <br>
 
-# commands<br>
+# linux commands<br>
 **pws**                    (to check present working directory)<br>
 **cd**                     (change directory)<br>
 **kill -9 processid**      (force stop any process)<br>
@@ -45,7 +45,12 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **history** (this command is used to view the commands executed by the user in a session)<br>
 **rm** (it is used to remove a file like rm newfile.txt it will remove newfile.txt file)<br>
 **rm -r** (-r is for recursive and this command is used for deleting a folder and file)<br>
-
+**mv** (used to move or rename a file or folder)
+**sudo usermod -aG kashan(uname) sudo(ugroup)** ( this command is used to add any user to na existing group)
+**useradd kashan(username)** (creates a new user but without directory in home)
+**useradd -m kashan(username)** (creates a new user with a username directory in home)
+**adduser kashan(username)** (creates a user with password and directory)
+**groupadd newgroup(groupname)** (creates new group)
 
 # AWS notes<br>
 # S3<br>
