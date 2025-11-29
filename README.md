@@ -90,4 +90,5 @@ This class provides most cheepest way of storing data but retrival cost is high.
 
 # EC2<br>
 # placement group
+
 This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports 7 ec2s per availability zone.
