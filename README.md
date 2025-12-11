@@ -55,6 +55,27 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **du newfile(filename)** (used to check the space  a file or folder is taking on disk)<br>
 **du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
 
+# Shell Scripting<br>
+It is used for task automation for example if we want to install any app like nginx <br>
+# Common for every linux script<br>
+first line of the file is !/bin/bash <br>
+after that we can write any linux command we want to execute line apt update service nginx status etc<br>
+the file name should end with .sh extension and to run this script we simmple tyoe ./ at the start of the file but remember to give it executable permission by chmod 777<br>
+# condition statements in linux<br>
+#!/bin/bash<br>
+a=20<br>
+b=20<br>
+if [ "$b" -gt "$a" ] ; then<br>
+echo "b is Greater than a $b"<br>
+elif [ "$a" -gt "$b" ] ; then<br>
+echo "a is Greater then b $a"<br>
+else<br>
+echo "equal $a $b"<br>
+fi<br>
+<br><br><br>
+
+
+
 
 # AWS notes<br>
 # Aws pricing plans
@@ -92,11 +113,4 @@ This class provides most cheepest way of storing data but retrival cost is high.
 # placement group<br>
 
 This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use <br>cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports <br>7 ec2s per availability zone.<br>
-
-# Shell Scripting<br>
-It is used for task automation for example if we want to install any app like nginx <br>
-# Common for every linux script<br>
-first line of the file is !/bin/bash <br>
-after that we can write any linux command we want to execute line apt update service nginx status etc<br>
-the file name should end with .sh extension and to run this script we simmple tyoe ./ at the start of the file but remember to give it executable permission by chmod 777<br>
 
