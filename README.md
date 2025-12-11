@@ -56,6 +56,7 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
 **awk** this commaand is used to filter the output 
 **awk usage**  ps -ef | awk -F" " '{print $2}' here we hare printing all the column 2 and each column is saparated by a space
+
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>
 # Common for every linux script<br>
