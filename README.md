@@ -137,4 +137,11 @@ This class provides most cheepest way of storing data but retrival cost is high.
 # placement group<br>
 
 This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use <br>cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports <br>7 ec2s per availability zone.<br>
-
+# Docker commands
+**Command to mount a folder to docker container using bind mount**<br>
+docker run -it -d -p 81:80 --mount type=bind,source=/home/testuser/newtestdir/volumedire,target=/newfile  --name cont1 nginx<br>
+**docker container port expose command**<br>
+docker run -it -d -p 81:80 --expose=82 --name cont3 nginx<br>
+Docker file difference between Run and Cmd command
+Run command executes During image build. used if we want to install a package like apt install nginx.
+Cmd command executes when container starts. A docker command can only have only one Cmd if there are multiple then only last will be executed.Its changes cannot be overridden because the changes are stored in the image.
