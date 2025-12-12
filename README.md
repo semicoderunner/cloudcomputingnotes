@@ -29,6 +29,7 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **ping google.com**        (It will ping google.com)<br>
 **grep**                   (grep command is used to match patterns and show it as output)<br>
 **ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
+**grep -i** -i flag is used to remove case sensitivity now it brings all the pattern even if its in capital or small letter that matches. 
 **ping -c 2 google.com**   (It will ping the google.com 2 times)<br>
 **ps**                     (shows processes that are running)<br>
 **ctrl+c**                 (used to terminate foreground processes)<br>
