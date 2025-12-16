@@ -18,18 +18,19 @@ cloud computing notes<br>
 **git show** this command shows the details of a object or branch etc.
 **git commit -m"message here"** <br>
 # Linux and its commands<br>
-v 
-What is linux distribution?
-There are main   families of linux namely 
-1.Debian Family
-2.Red Hat Family
-3.Arch Family
-4.SUSE Family  
-5.Gentoo Family
-6.Slackware Family
-these families differ in package manager like debian uses apt package manager and redhat uses yum/dnf package manager.
-What is linux flavour?
-The flavour is the official version of a distribution for example flavours of ubuntu are kubuntu lubuntu share same base as ubuntu.
+**What is linux distribution?**<br>
+There are main   families of linux namely <br>
+1.Debian Family<br>
+2.Red Hat Family<br>
+3.Arch Family<br>
+4.SUSE Family  <br>
+5.Gentoo Family<br>
+6.Slackware Family<br>
+these families differ in package manager like debian uses apt package manager and redhat uses yum/dnf package manager.<br>
+**What is linux flavour?**<br>
+The flavour is the official version of a distribution for example flavours of ubuntu are kubuntu lubuntu share same base as ubuntu.<br>
+**Based on means?**<br>
+In terms of linux based on means that a specific os is built with another os as base os like Ubuntu → based on Debian Linux Mint → based on Ubuntu<br>
 The users data is available in home folder<br>
 The commands that we run in linux its files are present in **bin folder**<br>
 The  apps such as nginx and users config files such as user groups etc are available in **ETC folder** <br>
