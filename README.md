@@ -17,7 +17,8 @@ cloud computing notes<br>
 <br>
 **git show** this command shows the details of a object or branch etc.
 **git commit -m"message here"** <br>
-# Linux and its commands<br>
+# Linux
+## Linux and its commands<br>
 **What is linux distribution?**<br>
 There are main 6  families of linux namely <br>
 1.Debian Family<br>
@@ -35,6 +36,12 @@ The users data is available in home folder<br>
 The commands that we run in linux its files are present in **bin folder**<br>
 The  apps such as nginx and users config files such as user groups etc are available in **ETC folder** <br>
 The logs,volumes and file such as html file for nginx is stored in **var folder** <br>
+# Linux file system
+Linux file system is a hyrerical tree like file system which starts from / root and then navigates to /etc /home etc In linux every device is considered as a file
+**Relative path** It starts from starting point root making easy to understand like /home/ubuntu/newfolder <br>
+
+**Absolute path** It starts from current location in which user is like if user is in ubuntu the path saths from /ubuntu/newfolder<br>
+# Users & Groups
 
 # linux commands<br>
 **pws**                    (to check present working directory)<br>
@@ -75,6 +82,7 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 <img width="818" height="136" alt="image" src="https://github.com/user-attachments/assets/b634f437-3410-407f-8b7c-1e3f2c2ac285" /><br>
 **ln file1 file2** hardlink this command is used to create a linked file in this case if file1 exist it will create a file2 with same data as file1 and it will be synced to changes if we add any change to file1 or file2 both will bw synced.<br>
 **ln -s file1 file2** this is used to create a softlink in our command a link file2 is created that points to the address of the file2  if we delete file 1 file 2 is lost <br>as its a address or link to file1.<br>
+Remove user for group in cent os command "gpasswd -d username groupname"
 
 
 
