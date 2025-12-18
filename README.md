@@ -50,6 +50,8 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **kill processid**         (stop any process)<br>
 **ping google.com**        (It will ping google.com)<br>
 **grep**                   (grep command is used to match patterns and show it as output)<br>
+**egrep "loans?" file.txt** (this command is for nextended regix expressins now this command will show all the words with loan and loans )
+**Zgrep "loan" file.txt.gz**  (this command is used to match pattern and get output from a zip file)<br>
 **ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
 **grep -i** -i flag is used to remove case sensitivity now it brings all the pattern even if its in capital or small letter that matches. 
 **ping -c 2 google.com**   (It will ping the google.com 2 times)<br>
@@ -80,6 +82,17 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
 **echo "text" > newfile.txt** (this command is used to insert text to file but i overrides the existing text) <br>
 **echo "text" >> newfile.txt** (this command is used to insert text to file but it appends the text to the next line)<br>
+**gzip file.txt** (this command is used to zip a file)<br>
+**zcat file.txt** (this command is used to show the test of a zip file) <br>
+**gunzip file.txt.gz** (this command is used to unzip a zip file)<br>
+wc file.txt (this command is used to count lines words and bytes of characters)<br>
+1.number of lines<br>
+2.number of words<br>
+3.number of bytes<br>
+<img width="345" height="41" alt="image" src="https://github.com/user-attachments/assets/2fb5d7c3-55a5-4da4-85df-d64882b475bc" />
+<br>
+
+wc -l  file.txt (this command is used to count the number of lines in a file) <br>
 
 **awk** this commaand is used to filter the output 
 **awk usage**  ps -ef | awk -F" " '{print $2}' here we hare printing all the column 2 and each column is saparated by a space<br>
