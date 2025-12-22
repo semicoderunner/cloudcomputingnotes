@@ -55,8 +55,14 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **sort file.txt** (this command shows output sorted output)<br>
 **sort -n file.txt** (this command sorts the numeric data and shows the output)<br>
 **cut -c 1-5 file.txt** (this command is used to get specific part of text from file like in the given this prints the first 5 characters from the file)<br>
+**cut -b 1-3,5-7 state.txt** this commands is use to get bytes from text file.
+**cut -b -3 file.txt** (this command returns first 3 bytes from each line)
+**cut -d " " -f 1 state.txt** this command is used to get  words from each line until delimiter encounters
 **uniq file.txt** (this command skips the adjcent duplicte words and prints the rest) <br>
 **sed 's/apple/saib/' file.txt** (sed wroks as a noninteractive text editor this command is used to replace words and show as output)<br>
+Insert text before a line **sed '1i\newtext' newfile.txt**
+Insert text after a line **sed '1a\newtext' newfile.txt**
+
 replace string **sed -i 's/apple/saib/' file.txt** (this command is used to relace words and save it in the file without showing output)<br>
 delete **sed '1d' sortfile.txt** (delete specific line by number)
 delete **sed -i '/apple/d' file.txt** (this command deletes the word apply in the file)
@@ -119,7 +125,9 @@ zip command is used to zip compress directories
 this command is used to unzip or decompress a ziped file.
 # tar
 gzip does not works on directories so if we want to archive a directory with all files in it we use tar 
-
+# etc/hosts file importance
+linux system searches in /etc/hosts for resolving hostname (converting hostname to ip so computer knows where to connect)<br>>
+like if we want to ping google.com it will not work if hostname is not maped we have to map that is /etc/hosts file like 8.8.8.8 google.com and www.google.com and ping then<br> it will work without any issue.<br>
 
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>
