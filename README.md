@@ -70,7 +70,10 @@ print **sed -n '/32/p' sortfile.txt** ( this command is used to print a line tha
 **ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
 **pipeline command**<br>
 **mkdir newdir |touch newfile.txt** (these 2  commands with  pipeline will execute both commands at the same time)
-
+**Change timezone** in linux we can chnage time zone using timezonectl set-timezone Asia/Karachi(any time zone).
+**NTP vs Chrony** Ntp and chrony are both time sync utility ntp is old utility and chrony is new utility for sync time its light weight and fast 
+Ntp is used in old systems servers.its prefered to use chrony unless task is specifically on old system.
+**chronyd setup** this command is used to check the installation of the utility chrony if its intalled or not.
 **grep -i** -i flag is used to remove case sensitivity now it brings all the pattern even if its in capital or small letter that matches. <br>
 **ping -c 2 google.com**   (It will ping the google.com 2 times)<br>
 **ps**                     (shows processes that are running)<br>
