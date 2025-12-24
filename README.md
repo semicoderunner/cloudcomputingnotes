@@ -131,7 +131,11 @@ like if we want to ping google.com it will not work if hostname is not maped we 
 # /etc/resolv.conf file importance <br>
 **/etc/resolv.conf = “Where should I ask when I need to resolve a hostname?”** <br>
 if the system does not finds dns maping in /etc/hosts file it sends a request to nameservers listed in the resolv.conf file and gets the ip address back.like nameserver of<br> google nameserver 8.8.8.8 now when we type ping youtube.com we will be able to ping using google public dns.<br>
-
+**SELinux** (what it is, enable/disable temporary/permanent)
+SE linux  is a kernel security module that is responsible for mandatory access control for strict permissions it has 3 modes  Enforcing Permissive Disable 
+**Enforcing** In this mode the selinux saves logs and blocks access 
+**Permissive** In this mode the selinux saves logs only 
+**Disabled** In this mode the selinux is dispabled does not saves logs or does not blocks access
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>
 Bash does not needs variable type we can store any type of data so its dynamic by default it treats variable as strings
