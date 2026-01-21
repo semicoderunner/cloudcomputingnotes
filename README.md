@@ -20,6 +20,7 @@ cloud computing notes<br>
 # Linux
 ## Linux and its commands<br>
 **What is linux distribution?**<br>
+linux distribution means that a os is based on a specific family like we say that ubuntu is a distribution of debian.
 There are main 6  families of linux namely <br>
 1.Debian Family<br>
 2.Red Hat Family<br>
@@ -28,6 +29,7 @@ There are main 6  families of linux namely <br>
 5.Gentoo Family<br>
 6.Slackware Family<br>
 these families differ in package manager like debian uses apt package manager and redhat uses yum/dnf package manager.<br>
+other differences can be the preconfigured tools when you first install them like ubuntu has mostly things installed like wifi dirvers etc but arc linux does not have any thing its like a empty canvas<br>
 **What is linux flavour?** <br>
 The flavour is the official version of a distribution for example flavours of ubuntu are kubuntu lubuntu share same base as ubuntu but differ in cosmetic changes.<br>
 **In terms of linux what does ubuntu Based on means?** <br>
