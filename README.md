@@ -31,6 +31,7 @@ cloud computing notes<br>
 # Linux
 ## Linux and its commands<br>
 **What is linux distribution?**<br>
+linus  is free open source anyone can modify it for their use so a linux that is made for specific purpose and distributed is called a distribution for example debian distributes stability .
 linux distribution means that a os is based on a specific family like we say that ubuntu is a distribution of debian.
 There are main 6  families of linux namely <br>
 1.Debian Family<br>
